@@ -48,7 +48,5 @@ Contact
 For any inquiries or feedback, please contact ttshiamo02.
 https://github.com/ttshiamo02/Daily-Bites-Edit-2
 https://www.youtube.com/watch?v=1ZYTZQKjOL4
-https://youtu.be/YHACo021_aY?si=Pvq10RUJe8F6d5oK
-
-
+https://youtu.be/2objJ1jUqO3?si=fgSH9D-rtVRKIZnk
 
