@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/diner"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:fontFamily="@font/kavoon"
+        android:text="@string/enter_the_time_of_day"
+        android:textAlignment="center"
+        android:textColor="#0F0E0E"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.19" />
+
+    <TextView
+        android:id="@+id/MealSuggestion"
+        android:layout_width="328dp"
+        android:layout_height="73dp"
+        android:fontFamily="@font/kavoon"
+        android:textAlignment="gravity"
+        android:textColor="#140101"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.537"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.71" />
+
+    <EditText
+        android:id="@+id/timeInput"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:autofillHints=""
+        android:fontFamily="@font/kavoon"
+        android:gravity="center"
+        android:inputType="time"
+        android:text="@string/_10_00"
+        android:textAlignment="inherit"
+        android:textColor="#0D0101"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.737"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.356"
+        tools:ignore="LabelFor" />
+
+    <Button
+        android:id="@+id/suggestButton"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="35dp"
+        android:backgroundTint="#E06F7A"
+        android:fontFamily="@font/kavoon"
+        android:foregroundTint="#560821"
+        android:gravity="center"
+        android:soundEffectsEnabled="true"
+        android:text="@string/get_meal"
+        android:textColor="#0F0101"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.527" />
+
+    <Button
+        android:id="@+id/clearButton"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#ED6479"
+        android:fontFamily="@font/kavoon"
+        android:soundEffectsEnabled="true"
+        android:text="@string/clear"
+        android:textColor="#121212"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.878" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

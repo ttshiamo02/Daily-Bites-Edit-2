@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Daily Bites Edit</string>
+    <string name="_10_00">10:00</string>
+    <string name="enter_the_time_of_day">Enter the time of day</string>
+    <string name="get_meal">Get Meal</string>
+    <string name="clear">Clear</string>
+</resources>
